@@ -46,7 +46,7 @@ public class Amaris_first_week{
 
 
     public static void printTotalArea(Building building){
-        System.out.println("El area total del edficio es: " + building.getTotalArea());
+        System.out.println("El area total del edficio es: " + building.getTotalAreaFlavia());
     }
 
 

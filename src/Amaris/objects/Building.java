@@ -14,10 +14,10 @@ public class Building {
         floors.add(floor);
     }
 
-    public int getTotalArea(){
+    public int getTotalAreaFlavia(){
         int totalArea = 0;
         for (Floor floor : floors){
-            totalArea += floor.getArea();
+            totalArea += floor.getAreaFlavia();
         }
         return totalArea;
     }

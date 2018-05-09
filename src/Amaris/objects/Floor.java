@@ -25,9 +25,9 @@ public class Floor {
     }
 
 
-    public int getArea(){
+    public int getAreaFlavia(){
         int area = 0;
-        for (Room room: rooms) area += room.getArea();
+        for (Room room: rooms) area += room.getAreaFlavia();
         return area;
     }
 
