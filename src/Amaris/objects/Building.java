@@ -10,14 +10,14 @@ public class Building {
 
     }
 
-    public void addFloorLisandro(Floor floor){
+    public void addFloor(Floor floor){
         floors.add(floor);
     }
 
-    public int getTotalAreaLisandro(){
+    public int getTotalAreaFlavia(){
         int totalArea = 0;
         for (Floor floor : floors){
-            totalArea += floor.getAreaLisandro();
+            totalArea += floor.getAreaFlavia();
         }
         return totalArea;
     }
@@ -25,7 +25,7 @@ public class Building {
     public ArrayList<String> getFloorNames(){
         ArrayList<String> names = new ArrayList();
         for (Floor floor : floors){
-            names.add(floor.getNameLisandro());
+            names.add(floor.getName());
         }
         return names;
     }

@@ -20,18 +20,18 @@ public class Floor {
         this.height = height;
     }
 
-    public void addRoomLisandro(Room room){
+    public void addRoom(Room room){
         rooms.add(room);
     }
 
 
-    public int getAreaLisandro(){
+    public int getAreaFlavia(){
         int area = 0;
-        for (Room room: rooms) area += room.getAreaLisandro();
+        for (Room room: rooms) area += room.getAreaFlavia();
         return area;
     }
 
-    public String getNameLisandro(){
+    public String getName(){
         return this.name;
     }
 }
