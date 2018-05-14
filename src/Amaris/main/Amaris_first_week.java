@@ -23,17 +23,17 @@ public class Amaris_first_week{
         Room kitchen = new Room(15, 10, 10);
         Room bedroom = new Room(20,20,20);
 
-        building.addFloor(firstFloor);
-        building.addFloor(secondFloor);
-        building.addFloor(thirdFloor);
-        building.addFloor(loft);
+        building.addFloorLisandro(firstFloor);
+        building.addFloorLisandro(secondFloor);
+        building.addFloorLisandro(thirdFloor);
+        building.addFloorLisandro(loft);
 
-        firstFloor.addRoom(livingRoom);
-        firstFloor.addRoom(bathroom);
-        firstFloor.addRoom(kitchen);
-        firstFloor.addRoom(bedroom);
-        secondFloor.addRoom(kitchen);
-        secondFloor.addRoom(bathroom);
+        firstFloor.addRoomLisandro(livingRoom);
+        firstFloor.addRoomLisandro(bathroom);
+        firstFloor.addRoomLisandro(kitchen);
+        firstFloor.addRoomLisandro(bedroom);
+        secondFloor.addRoomLisandro(kitchen);
+        secondFloor.addRoomLisandro(bathroom);
 
         floors.add(firstFloor);
         floors.add(secondFloor);
@@ -46,7 +46,7 @@ public class Amaris_first_week{
 
 
     public static void printTotalArea(Building building){
-        System.out.println("El area total del edficio es: " + building.getTotalArea());
+        System.out.println("El area total del edficio es: " + building.getTotalAreaLisandro());
     }
 
 

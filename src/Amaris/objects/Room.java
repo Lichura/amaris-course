@@ -20,7 +20,7 @@ public class Room {
         //System.out.println("este cuarto mide %s de largo * %s de ancho * %s de alto ", lenght, width, height);
     }
 
-    public int getArea(){
+    public int getAreaLisandro(){
         return this.width * this.height * this.length;
     }
 }
